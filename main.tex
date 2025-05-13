@@ -1,0 +1,108 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{margin=1in}
+\title{BookNook: Online Book Store\\\large Semester Project Report}
+\author{
+Mudassar Abbas (01-135231-052)\\
+Muhammad Aleem (01-135231-055)\\
+BS(IT) – 5B\\
+Bahria University, Islamabad Campus
+}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{1. Introduction}
+This document presents the final report for our semester project ``BookNook,'' an online book store developed using HTML, CSS, and JavaScript. It allows users to browse, search, and purchase books online with ease.
+
+\section*{2. Previous SRS Summary}
+\textbf{Title:} BookNook – Your Online Book Store
+
+\textbf{Overview:} BookNook is a user-friendly e-commerce application enabling book browsing, searching, purchasing, and order tracking. It features admin functionalities and responsive design.
+
+\textbf{Key Features:}
+\begin{itemize}
+    \item Browse books by categories
+    \item Search by title, author, or genre
+    \item Shopping cart and checkout
+    \item User authentication
+    \item Admin dashboard
+    \item Mobile responsiveness
+\end{itemize}
+
+\textbf{Development Stack:}
+\begin{itemize}
+    \item Frontend: React.js (planned), Tailwind CSS
+    \item Backend: ASP.NET + Node.js with Express (planned)
+    \item Database: MongoDB
+    \item Tools: JWT, Stripe, Cloudinary
+\end{itemize}
+
+\section*{3. Final Front-End Structure}
+The front-end was built using:
+\begin{itemize}
+    \item HTML5 – for structure
+    \item CSS3 – for styling and layout
+    \item JavaScript – for interactivity (navigation, cart functionality)
+\end{itemize}
+
+The site comprises:
+\begin{itemize}
+    \item \textbf{Home Page:} Showcases featured books and categories
+    \item \textbf{Books Listing Page:} Displays books by category
+    \item \textbf{Book Detail Page:} Shows details and "Add to Cart"
+    \item \textbf{Cart Page:} Manages selected items
+    \item \textbf{Login/Signup Page:} Basic form design
+\end{itemize}
+
+\section*{4. Screenshots}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{screenshots/home.png}
+\caption{Home Page}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{screenshots/book-details.png}
+\caption{Book Detail Page}
+\end{figure}
+
+\section*{5. Connection to Backend}
+Currently, the project includes only front-end components. Backend integration was planned using Node.js/Express with MongoDB, but due to time limitations, backend API and payment functionality were not implemented. JSON-based placeholder data was used to simulate functionality.
+
+\section*{6. Challenges and Resolutions}
+\begin{itemize}
+    \item \textbf{Challenge:} Delay in backend development.
+    \item \textbf{Resolution:} Simulated backend using JavaScript arrays/objects for product data.
+    \item \textbf{Challenge:} Responsive design issues on small devices.
+    \item \textbf{Resolution:} Manual media queries and flexbox adjustments.
+    \item \textbf{Challenge:} Cart item persistence.
+    \item \textbf{Resolution:} Used browser \texttt{localStorage}.
+\end{itemize}
+
+\section*{7. Deviations from Proposal}
+The original proposal planned to use:
+\begin{itemize}
+    \item React.js for dynamic UI
+    \item Tailwind CSS for styling
+    \item ASP.NET/Node.js backend
+\end{itemize}
+
+However, due to time constraints, we developed the frontend using:
+\begin{itemize}
+    \item Plain HTML, CSS, and basic JavaScript
+    \item No backend or database integration
+    \item No payment gateway integration
+\end{itemize}
+
+\section*{8. Conclusion}
+BookNook's front-end development is complete, showcasing a clean and responsive UI. Core e-commerce functionalities are implemented in static form, and we aim to integrate a backend and full user experience in the future.
+
+\end{document}
+
