@@ -158,3 +158,12 @@ var swiper = new Swiper(".blogs-slider", {
     },
   },
 });
+addToCart({
+    id: 'test1',
+    title: 'Test Book',
+    price: 19.99,
+    image: 'image/book-1.png'
+})
+console.log(JSON.parse(localStorage.getItem('cart')))
+
+
