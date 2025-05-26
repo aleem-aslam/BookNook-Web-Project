@@ -92,7 +92,7 @@ section{
     align-items: center;
     justify-content: space-between;
 }
-
+/* styling logo */
 .header .header-1 .logo{
     font-size: 2.5rem;
     font-weight: bolder;
@@ -736,8 +736,8 @@ section{
 
 
 
-/* media queries  */
 
+/* media queries  */
 @media (max-width:991px){
 
     html{

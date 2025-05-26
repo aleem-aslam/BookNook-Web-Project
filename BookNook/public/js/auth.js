@@ -29,10 +29,10 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             if (data.success) {
                 showMessage('Login successful! Redirecting...', 'success');
-                // Redirect to dashboard or home page after login
-                setTimeout(() => {
-                    window.location.href = '../index.html'; // Change this to your actual dashboard page
-                }, 1500);
+               
+                setTimeout(() => { // Redirect to dashboard or home page after login
+                    window.location.href = '../index.html'; 
+                }, 1500);// Change this to your actual dashboard page
             } else {
                 showMessage(data.message || 'Login failed', 'error');
             }
